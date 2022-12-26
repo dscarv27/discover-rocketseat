@@ -1,0 +1,155 @@
+codepen.io/dscarv27/pen/OJZgPRv 
+> conceitos básicos
+
+codepen.io/dscarv27/pen/jOxwEGJ
+> caixas
+
+codepen.io/dscarv27/pen/YzLQBmg
+> cascata
+
+codepen.io/dscarv27/pen/JjvyyQb
+> em e rem
+
+codepen.io/dscarv27/pen/qBYXPBr
+> %
+
+codepen.io/dscarv27/pen/eYrEGpp
+> position
+
+codepen.io/dscarv27/pen/bGMroOG
+> border-box
+
+codepen.io/dscarv27/pen/YzLxrgR
+> block x inline
+
+codepen.io/dscarv27/pen/GRdvOgb7
+> margin
+
+codepen.io/dscarv27/pen/NWMvwxN
+> padding
+
+codepen.io/dscarv27/pen/gOzxXWb
+> border
+
+codepen.io/dscarv27/pen/QWrqyoZ
+> color
+
+codepen.io/dscarv27/pen/yLjzXwP
+> background
+
+codepen.io/dscarv27/pen/OJZOWge
+> posicionamentos
+
+codepen.io/dscarv27/pen/eYregVR
+> flexbox
+
+codepen.io/dscarv27/pen/mdLqRjY
+> grid (+ flexbox no header)
+
+codepen.io/dscarv27/pen/RwyjKdz
+> fonts
+
+codepen.io/dscarv27/pen/vYjWrGg
+> mais estilos de fonts
+
+https://codepen.io/dscarv27/pen/JjBjJMg
+> seletores
+
+https://codepen.io/dscarv27/pen/NWBWgzX
+> combinadores
+
+https://codepen.io/dscarv27/pen/yLqLXZQ
+> child combinator
+
+https://codepen.io/dscarv27/pen/yLqLXdG
+> utilizando combinator
+
+https://codepen.io/dscarv27/pen/JjBjMoY
+> first-child
+
+https://codepen.io/dscarv27/pen/eYjYyZq
+> nth-of-type
+
+https://codepen.io/dscarv27/pen/rNrNpma
+> nth-child
+
+https://codepen.io/dscarv27/pen/XWBWVab
+> even e odd
+
+https://codepen.io/dscarv27/pen/PoBoERB
+> hover e focus
+
+https://codepen.io/dscarv27/pen/vYaYpVR
+> disabled e required
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes
+> referencias de pseudo-classes
+
+https://codepen.io/dscarv27/pen/eYjYVYd
+> ::before, ::after, ::first-line
+
+https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements
+> referencias pseudo-elements
+
+https://codepen.io/dscarv27/pen/mdjydQr
+> normal flow
+
+https://codepen.io/dscarv27/pen/rNraaag
+> table
+
+https://codepen.io/dscarv27/pen/mdjyyVm
+> tableless
+
+https://codepen.io/dscarv27/pen/zYLxxNY
+> flexbox
+
+https://codepen.io/dscarv27/pen/vYaEEJZ
+> flex container, flex item e nesting
+
+https://codepen.io/dscarv27/pen/ZEjYYME
+> eixo principal e cruzado
+
+https://codepen.io/dscarv27/pen/GRBggLG
+> flex sizing
+
+https://codepen.io/dscarv27/pen/RwBNPNJ
+> direção dos itens
+
+https://codepen.io/dscarv27/pen/GRBgJjw
+> multiplas linhas
+
+https://codepen.io/dscarv27/pen/WNKbwrV
+> direçao e multilinha em uma unica propriedade
+
+https://codepen.io/dscarv27/pen/rNraejj
+> alinhamento dos itens no eixo principal
+
+https://codepen.io/dscarv27/pen/OJwPNmG
+> alinhamento dos itens no eixo cruzado
+
+https://codepen.io/dscarv27/pen/JjBoXyM
+> gap
+
+https://codepen.io/dscarv27/pen/QWBwNmj
+> largura e altura dos itens com flexis-basis
+
+https://codepen.io/dscarv27/pen/KKBwzeM
+> crescimento e adaptação dos itens
+
+https://codepen.io/dscarv27/pen/rNraeqz
+> encolhimento e encaixe dos elementos
+
+https://codepen.io/dscarv27/pen/VwBYaNg
+> shorthand flex
+
+https://codepen.io/dscarv27/pen/YzjPWxz
+> alterando elementos de multiplos itens
+
+https://codepen.io/dscarv27/pen/LYBEZzo
+> ordenando itens
+
+https://codepen.io/dscarv27/pen/gOjpaxb
+> posicionando imagens
+
+https://codepen.io/dscarv27/pen/rNrVOYd
+> proposta de estrutura de pagina
