@@ -1,0 +1,81 @@
+Por que estudar estrutura de dados?
+    Organizar os dados da aplicação;
+    Entender estruturas para melhor tomada de decisão;
+    Escrever melhores algoritmos;
+    Eficiência;
+    Algumas empresas usam como requisito.
+Alguns desafios diários de uso de dados são:
+    Entendimento de como estão nossos dados na aplicação;
+    Criar listas (ordenadas, não ordenadas);
+    Repetição ou não dos dados dentro da estrutura;
+    Organizar os dados pelo par identificador + valor;
+
+O que é estrutura de dados?
+    Imagina um guarda roupas...
+    Uma maneira de organizar e ordenar informações como textos, números, booleanos, etc e registrá-los na memória do computador.
+
+    Organizar dados (informações)
+        Textos, números, booleanos...
+    Como estão registrados na memória
+
+Gerenciando dados:
+
+Estrutura de dados tem a ver com a gestão das informações da aplicação
+
+Para esse gerenciamento, podemos dividir em 3 etapas:
+1. Modelar a estrutura;
+2. Dar vida à estrutura;
+3. Criar as funcionalidades dessa estrutura.
+    Exemplo: inserir, excluir, buscar, exibir, contar...
+
+Arrays:
+Array, vetor ou arranjo é uma estrutura amplamente utilizada e implementada em quase todas as linguagens de programação.
+Uma das estruturas mais básicas, simples de criar e utilizar.
+['a', 10, 'd', true] //total de 4 elementos
+//0,  1,   2,   3
+Caracteristicas:
+    Acesso pelo index;
+    Respeita a ordem da inserção dos elementos;
+    Aceita valores duplicados;
+    Dependendo do tamanho do Array, para encontrar e/ou deletar um elemento, será necessário um uso maior de performance.
+no JavaScript:
+    São dinâmicos (em algumas linguagens, é necessário definir o tamanho dele);
+    Pode ter dados de diferentes tipos misturados dentro de um Array (strings, numbers, booleans, objects, functions e ate outros arrays);
+    Existem muitos métodos já implementados:
+        push(), pop(), find(), filter(), entre outros
+
+Matrix:
+Matriz ou Vetor multidimensional.
+Siginifica que é um array dentro de outro array. Pode ter muitos níveis.
+
+Stack:
+Como uma pilha de livros
+    Linear, um após o outro;
+    O último a entrar na pilha é o primeiro a sair;
+    LIFO: Last In First Out.
+Métodos fundamentais:
+    push(): adiciona um elemento à pilha;
+    pop(): remover o elementodo topo da pilha;
+    peek(): obter o elemento do topo da pilja
+    Outros métodos poderão ser implementados como size() para mostrar o tamanho da pilha.
+
+Queue
+Como uma fila em uma loja ou restaurante
+    Linear;
+    O primeiro a entrar na fila é o primeiro a sair;
+    FIFO: First In First Out
+    Front (frente): é a referência do primeiro elemento a entrar na fila;
+    Back (fundo): é a referênciado último elemento a entrar na fila;
+    Enqueue > conceito para quem está entrando na fila;
+    Dequeue > conceito para que está saindo da fila.
+Métodos:
+    enqueue(): adicionar um elemento ao final da fila;
+    dequeue(): remover o primeiro elemento a entrar na fila;
+    Outros métodos poderão ser implementados como size() para mostrar o tamanho da fila ou front() para pegar o primeiro elemento da fila, dentro tantos outros.
+
+Visão Geral:
+    Usamos estrutura de dados para gerenciar dados e as informações da nossa aplicação
+    Organizar, ordenar e buscar são algumas funcionalidades básicas
+    Melhorar a escrita dos algoritmos
+    Melhorar a efiencia dos nossos aplicativos
+    Existem muitas estruturas a serem estudadas!
