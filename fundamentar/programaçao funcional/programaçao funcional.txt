@@ -1,0 +1,88 @@
+Programação Funcional
+
+É um paradigma de programação como a POO, por exemplo
+    Uma maneira de resolver problemas;
+    Envolvida por Funções
+        Pequenas tarefas dentro de uma função;
+        Abstrair um problema e isolar ele dentro da função;
+        Não modificar dados fora dela;
+        Pequenas e bem específicas no que fazem.
+
+Caracteristicas principais da função:
+    Um dado (ou mais) entra em uma função e um novo dado sai dessa função;
+    Não altera dados;
+    Não guarda estado stateless.
+
+Linguagens Funcionais:
+    JavaScript (multiparadigma)
+    PHP (multiparadigma)
+    Elixir (totalmente funcional)
+    Haskell (totalmente funcional)
+
+Pontos Positivos:
+    Fácil manutenção;
+    Fácil uso de testes
+        Funções isoladas e consistentes;
+    Códigos mais confiáveis.
+
+Principios:
+    Paradigmas
+        Programação Imperativa
+        Programação Declarativa
+    Dados
+        Imutabilidade
+        Stateless
+    Funções
+        Independentes
+        Puras
+        Higher-order
+        First-class
+        Composição
+
+Programação Imperativa:
+    O código é pensado e gerado em sequencia;
+    O código é pensado passo-a-passo, como uma receita de bolo;
+    Uma coisa depende da outra;
+    O estado de um dado é alterado constantemente causando mutações nas variáveis;
+    Orientação a Objetos é um tipo de paradigma imperativo.
+
+Programação Declarativa:
+    O código é gerado para fazer algo, não importa como;
+    O que fazer e não como fazer;
+    Não há necessidade de um passo a passo no código;
+    Programação Funcional é um tipo de paradigma declarativo.
+
+Imutabilidade:
+    Uma variável não vai variar;
+    Se precisar mudar uma variável, você não muda, você cria uma nova;
+    Será uma const.
+
+Stateless:
+    Não guarda estado;
+    A função só conhece dados entregues a ela;
+    A resposta não poderá variar.
+
+Caracteristicas das Funções:
+    Funções Independentes:
+        Deverá ter ao menos 1 argumento;
+        Deverá retornar algo;
+        Nada que acontecer lá dentro afeta o mundo externo
+            dados imutáveis;
+            não guardar estado;
+        Não faremos o uso de loops(for, while), mas, se houver necessidade de tal, usaremos recursão(a função chama ela mesma).
+    Funções Puras:
+        Não deverá depender de nenhum dado externo a não ser o que foi passado como argumento;
+        Não deverá sofrer nenhuma interferência do mundo externo a ela;
+        Se o argumento é o mesmo, o retorno não poderá ser diferente quando a função for chamada novamente;
+        Não terá nenhum efeito colateral no seu código
+            Não irá modificar nenhum dado;
+            Não irá guardar nenhum estado.
+    First-class Functions:
+        Podem estar em qualquer lugar, inclusive, como parâmetro de outras funções;
+        A função poderá ser entendida como uma variável.
+    Higher-order Functions:
+        Funções que recebem funções como argumentos;
+        Funções que poderão retornar outras funções.
+    Composição de Funções:
+        Encadeamento de funções;
+        Uma função que retorna um dado e vai para outra função, que retorna um dado e vai para outra função, que retorna...
