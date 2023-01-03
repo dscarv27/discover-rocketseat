@@ -1,0 +1,33 @@
+Existem várias opções de como criar, indo no dashboard, no + ou indo no perfil e na parte de repositórios e clicar em new.
+Na parte de criação de um novo repositório, nele conterá todos os arquivos de projetos, colocaremos um nome, se for o seu próprio nome teremos um segredo, um repositório com o nome igual ao seu é especial, usado para fazer um README.md no GitHub, ou seja, fazer um profile no mesmo.
+Descrição é opcional, podemos colocar como privado ou público, no caso adicionaremos um arquivo README. E criaremos o repositório.
+Isso no terminal seria feito da seguinte forma:
+primeiro precisamos estar em um diretório, caso não haja, mkdir***nome*** e entrar nele é o comando cd***nome*** , não há nada nele, então damos um git init e no processo de adicionar o README, usamos o comando touch README.md , no ls temos o README.md, damos um git add README.md e um git commit -m "README.md", com isso fizemos nosso primeiro commit.
+Isso seria como fazer o repositório local, sendo diferente do GitHub que é na nuvem, por enquanto sem nenhuma ligação, mas no curso veremos ainda como ligar.
+
+Nessa aula estaremos conhecendo a página do repositório, faremos também a nossa primeira modificação no README.
+Nela podemos ver o repositório e de quem é, podemos ver quantas pessoas estão observando ele, podemos dar uma estrela, é como um curti, também dar um fock, que não é o foco da aula, mas em outro momento podemos ver.
+Temos as barrinhas para ver o código, as issues, pull requests e outros.
+Podemos editar o README, escrever sobre o repositório, reelases e packages.
+Possuímos também a branche main, que o próprio GitHub cria, podemos criar tag. Tudo por enquanto bem simples.
+
+Nesta aula aprenderemos a editar seu repositório.
+De maneira simples clique no lápis do repositório que criamos na aula passada, o README.md, dentro já temos um template dele, podendo editar o conteúdo da maneira que desejar, como no nosso caso é um README, ele vai conter algumas informações como o nome, tecnologia que queremos trabalhar, empresa que trabalha e etc.
+Você pode ver o de outras pessoas também, para ter ideias.
+Clicando no preview changes, podemos ver o que foi alterado, o vermelho sendo o que era e o verde o alterado, mas qualquer arquivo que alteramos estaremos fazendo um novo commit, um novo ponto na história.
+No commit changes, já temos uma mensagem padrão, que também podemos mudar, tendo também informações que você queira colocar a mais.
+Na parte abaixo a essa caixa, temos a opção de selecionar se queremos commitar direto na branch main e a opção de criar uma nova branch, para solicitar um pull request, mas por enquanto a gente não esta vendo isso, pois estamos fazendo sozinho o projeto, já que o pull request serve para pedir para alguém do seu time revisar e ver se está certo o seu código
+Por fim se clicarmos no nome do usuário que fica junto do nome do repositório, veremos ele bem bonito.
+
+Podemos copiar o README, caso tenha gostado da forma que foi feito a do Mayk, você irá até a parte de repositórios dele, que estão público, pesquisará pelo README.md e clicará em raw, lá irá conter todo o arquivo.
+Então você copia e cola no seu repositório.
+
+Podemos já fazer algumas colaborações.
+Vemos que o README do Mayk está com alguns probleminhas, então conseguimos, clicando no lápis, corrigir esses problemas, fazendo assim uma proposta de mudança, criando uma atualização, o Mayk já vai receber isso como um pull request, então ele analisará e ver se aceita a correção, bacana.
+Quando clicamos para editar o README.md do Mayk, o GitHub automaticamente cria um fork, que significa que ele está trazendo para os nossos repositórios um de fora, agora cabe você continuar trabalhando nele, ou também apagar, indo nas configurações do repositório, então deletando ele, porém apenas precisando colocar o nome certo do que você está a apagar, o fork meio que clona ele para o seu repositório, para você mexer da forma que desejar.
+
+Por fim estaremos conhecendo o resto do nosso dashboard.
+Podemos mudar o tema dele para escuro, selecionar os seus melhores repositórios para aparecer ao público, caso tenha mais de 1.
+Há também um histórico de contribuições que você fez.
+Temos as atividade de contribuições, no dia de hoje, também o qual foi o primeiro seu primeiro repositório, quando você ingressou ao GitHub.
+
