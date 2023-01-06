@@ -1,0 +1,14 @@
+{
+    "nome": "Daniel Carvalho",
+    "idade": 30,
+    "cidade": "Rio de Janeiro",
+    "series_favoritas": [
+        "mr robot",
+        "anne with an e",
+        "breaking bad"
+    ],
+    "hobbies": {
+        "semana": "estudar",
+        "fim_de_semana": "video game"
+    }
+}
