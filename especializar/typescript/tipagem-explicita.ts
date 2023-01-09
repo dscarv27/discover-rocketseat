@@ -1,0 +1,1 @@
+//quando deixa claro qual é o tipo de cada variável
