@@ -2,13 +2,23 @@ import React, { useState, useEffect } from 'react'; //hooks > funções que perm
 //useState > importando estado > importante para armazenar valores e esses valores serão utilizados na interface quando o conteúdo da variavel mudar em tempo real
 import './styles.css';
 
-import { Card } from '../../components/Card';
+import { Card, CardProps } from '../../components/Card';
+
+type ProfileResponse = {
+  name: string;
+  avatar_url: string;
+}
+
+type User = {
+  name: string;
+  avatar: string;
+}
 
 export function Home() {
-  const [studentName, setStudentName] = useState(''); //recebendo estado
+  const [studentName, setStudentName] = useState<CardProps[]>([]); //recebendo estado
   //o primeiro elemento do estado é o conteúdo em si, o segundo elemento é a função que atualiza o estado
-  const [students, setStudents] = useState([]);
-  const [user, setUser] = useState({ name: '', avatar: ''});
+  const [students, setStudents] = useState<CardProps[]>([]);
+  const [user, setUser] = useState<User>({} as User);
 
   function handleAddStudent(){
     const newStudent = {
@@ -23,17 +33,34 @@ export function Home() {
     setStudents(prevState =>[...prevState, newStudent]); //add a função no estado setStudents, utilizando o estado anterior
   }
 
-  useEffect(() => {
-    //corpo do useEffect > ações e o que eu quero que execute > é executado automaticamente assim que a interface é renderizada
-    fetch('https://api.github.com/users/dscarv27')
-    .then(response => response.json())
-    .then(data => {
-      setUser({
-        name: data.name,
-        avatar: data.avatar_url,
-      })
-    }) //consumindo API do github
-  }, []);
+  // useEffect(() => {
+  //   //corpo do useEffect > ações e o que eu quero que execute > é executado automaticamente assim que a interface é renderizada
+  //   fetch('https://api.github.com/users/dscarv27')
+  //   .then(response => response.json() ) 
+  //   .then(data => {
+  //     setUser({
+  //       name: data.name,
+  //       avatar: data.avatar_url,
+  //     })
+  //   }) //consumindo API do github
+  // }, []);
+
+//atualizando para exercicio
+
+useEffect(() => {
+  async function fetchData(){
+    const response = await fetch('https://api.github.com/users/dscarv27');
+    const data = await response.json() as ProfileResponse;
+
+    setUser({
+      name: data.name,
+      avatar: data.avatar_url,
+    });
+  }
+
+  fetchData();
+}, []);
+
 
   return (
     <div className='container'>
