@@ -153,3 +153,24 @@ https://codepen.io/dscarv27/pen/gOjpaxb
 
 https://codepen.io/dscarv27/pen/rNrVOYd
 > proposta de estrutura de pagina
+
+https://codepen.io/dscarv27/pen/wvxJEaP
+> transition property e duration
+
+https://codepen.io/dscarv27/pen/OJwpojz
+> transition timing-function
+
+https://codepen.io/dscarv27/pen/ExpWepV
+> transition delay
+
+https://codepen.io/dscarv27/pen/eYjvLom
+> transition all
+
+https://codepen.io/dscarv27/pen/zYLZmBo
+>> animation name, duration, keyframes, delay, iteration, direction
+
+https://codepen.io/dscarv27/pen/JjBWmeL
+>> animation timing function
+
+https://codepen.io/dscarv27/pen/XWBMyWV
+>> animation fill mode
